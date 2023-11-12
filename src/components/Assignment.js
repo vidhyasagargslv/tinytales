@@ -61,7 +61,7 @@ export default function Assignment() {
           <div className="bio">
             
             <p className='bio-content'>Co-founder & CEO at Terribly Tiny Tales </p>
-            <a href={profiles.link}>{profiles.link}</a>
+            <a href={profiles.link} className='bio-link'>{profiles.link}</a>
           </div> <br />
 
 
