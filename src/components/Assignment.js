@@ -82,9 +82,13 @@ export default function Assignment() {
             <img src="/love.png" alt="love" className='stats-icon' />
               <h4>{profiles.likes}</h4>
             </div>
-          </div>
+          </div> <br />
+
+            
+
 
           <div className="posts">
+          <h2 className='postcount'>134 Posts</h2>
             <div className="post1">
               <div className="head">
               <div><h2>A Changing World Order</h2> </div>

@@ -202,10 +202,23 @@ text-align: center;
    margin-right: 5%;
    font-family: 'Times New Roman', Times, serif;
    margin-top: -8vh;
+   margin-left: 1vw;
    display: flex;
     flex-direction: column;
     gap: 20px;
+    animation: fadeIn 1s ease-in forwards;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
 .posts h2{
   font-size: 1.2rem;
   font-weight: 800;
@@ -225,6 +238,19 @@ li::before{
   content: "-";
   margin-right: 10px;
 
+}
+.postcount{
+  /* margin-left: 1vw; */
+  margin-top: -3vh;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #70A6D1;
+  border-top: 1px solid #aeb2b6b0;
+  border-right: 1px solid #dadbdc;
+  padding-top: 15px;
+  margin-right: 60vw;
+  position: relative;
+  
 }
 
 
@@ -263,5 +289,8 @@ li::before{
 
   .stats{
     margin-left: 1vw;
+  }
+  .postcount{
+    margin-right: 85vw;
   }
 }
