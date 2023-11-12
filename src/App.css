@@ -65,7 +65,7 @@ nav{
   width: calc(100% + 10px); /* Adjust this value as needed */
   height: 40vh;
   margin-left: -5px; 
-
+  
 }
 body{
   width: 100%;
@@ -96,11 +96,11 @@ body{
 
 .name{
   
-  margin-left: 15%;
-  font-size: 1.3rem;
+  margin-left: 19%;
+  font-size: 1.1rem;
   font-weight: 600;
-  
-  
+  padding-bottom: 4px;
+  margin-top: 2px;
 }
 .follow{
   display: flex;
@@ -146,13 +146,22 @@ text-align: center;
 .bio a{
   text-decoration: none;
   color: blue;
+  
+}
+
+.bio-content{
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6c757d;
+  
+
 
 }
 .stats{
   display: flex;
   flex-direction: row;
   position: relative;
-  top: -10vh;
+  top: -8vh;
 }
 .stats-icon{
   width: 20px;
@@ -168,7 +177,9 @@ text-align: center;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 0.7rem;
+  margin: 0.4rem;
+  padding: 1px 2px;
+
 }
 .span1{
   color: rgb(69, 150, 200);
@@ -224,6 +235,10 @@ text-align: center;
   font-weight: 800;
   
 }
+
+.posts .stats-icon1{
+  margin-top: 6px;
+}
 .posts p{
   text-wrap: pretty;
   font-size: 1rem;
@@ -253,6 +268,15 @@ li::before{
   
 }
 
+hr{
+  
+  border-top: 1px solid #dbdee1b0;
+  border-right: 1px solid #dadbdc;
+  margin-left: -1vw;
+  margin-right: 0vw;
+  margin-top: 3vh;
+
+}
 
 
 
@@ -265,7 +289,33 @@ li::before{
 
 
 
+@media screen and (min-width: 768px) {
+  .profile {
+    margin-left: 8vw;
+    margin-right: 0vw; /* Adjust this value as needed */
+  }
 
+  .posts {
+    margin-left: 1vw; /* Aligns to the left side */
+  }
+
+  .head{
+    margin-right: 70%;
+  }
+  .time{
+    margin-right: 70%;
+  }
+  .posts p{
+    margin-right: 70%;
+  }
+
+  .stats{
+    margin-left: 1vw;
+  }
+  .postcount{
+    margin-right: 85vw;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .profile {
@@ -292,5 +342,8 @@ li::before{
   }
   .postcount{
     margin-right: 85vw;
+  }
+  hr{
+    margin-right: 65vw;
   }
 }

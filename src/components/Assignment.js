@@ -101,6 +101,7 @@ export default function Assignment() {
                 </div>
               
             </div>
+            <hr />
             <div className="post2">
             <div className="post1">
               <div className="head">
@@ -117,6 +118,7 @@ export default function Assignment() {
             </div>
               
               </div>
+              <hr />
               <div className="post3">
               <div className="post1">
               <div className="head">
@@ -136,6 +138,7 @@ export default function Assignment() {
             </div>
               
               </div>
+              <hr />
           </div>
           </div>
 
