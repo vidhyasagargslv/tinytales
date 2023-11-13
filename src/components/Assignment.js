@@ -1,5 +1,8 @@
 
+
+
 import React, { useState, useEffect } from 'react';
+
 
 
 
@@ -9,6 +12,7 @@ export default function Assignment() {
 
     const [profiles, setProfiles] = useState([]);
 
+  // Fetch profiles data when the component mounts
   useEffect(() => {
     const fetchProfiles = async () => {
       try {
@@ -23,11 +27,16 @@ export default function Assignment() {
     fetchProfiles();
   }, []); 
 
+  // *Render the component
   return (
     <div>
+       {/* Map over the profiles data and render each profile */}
+
             {profiles.map((profiles)=>(
         <div key={profiles.id}>
-       <nav className='navbar'>
+
+        {/* Navigation bar */}
+        <nav className='navbar'>
         <div className="leftnav">
         <img src="/ttt.svg" alt="profile" className='logo'/>
         <span className='divider'>|</span>
@@ -35,17 +44,22 @@ export default function Assignment() {
         <div className="rightnav">
         <span className='navitem'>Courses</span>
         </div>
-       </nav> <br />
+        </nav> <br />
+
+        {/* Background image */}
         <div className="bgimage">
           <img src="/pexels-tima-miroshnichenko-7168597.jpg" alt="coverpic" id='coverpic'/>
           
         </div> <br />
+
+        {/* Profile picture */}
         <img src={profiles.profilepic} alt="profilepic" id='profilepic'/>
         <div className="profile">
           <div className="name">
           
           <h4 className='username'>{profiles.name}</h4></div>
             
+        {/* Follow stats */}
           <div className="follow">
           <div className="follow-stats">
               <h1>{profiles.followers}</h1>
@@ -58,13 +72,15 @@ export default function Assignment() {
            </div>
           </div>
           </div>   <br />
+
+          {/* Bio */}
           <div className="bio">
             
             <p className='bio-content'>Co-founder & CEO at Terribly Tiny Tales </p>
             <a href={profiles.link} className='bio-link'>{profiles.link}</a>
           </div> <br />
 
-
+          {/* Stats */}
           <div className="stats">
             <div className="stats-item">
               <img src="/star.png" alt="star" className='stats-icon'/>
@@ -86,7 +102,7 @@ export default function Assignment() {
 
             
 
-
+          {/*  posts section */}
           <div className="posts">
           <h2 className='postcount'>134 Posts</h2>
             <div className="post1">
@@ -108,12 +124,12 @@ export default function Assignment() {
               <div><h2>India VS Australia</h2> </div>
               <div><img src="/thumbsup.png" alt="love" className='stats-icon1' /> </div>
               </div>
-                <p>Think about it - this cricket series was akin to therapy. <br /> <br />
+              <p>Think about it - this cricket series was akin to therapy. <br /> <br />
                  Laying our childhood trauma up top, working withit slowly and surely over two m...</p>
-                <div className='footer'>
-                <div className="from"><span className='span1'>thought</span> <span className='span2'>by anujgosalia</span></div>
-                  <div className="time">January 21 . 1 min Read . 156 Views</div>
-                </div>
+              <div className='footer'>
+               <div className="from"><span className='span1'>thought</span> <span className='span2'>by anujgosalia</span></div>
+               <div className="time">January 21 . 1 min Read . 156 Views</div>
+              </div>
               
             </div>
               
@@ -130,15 +146,17 @@ export default function Assignment() {
                 <li>Products</li>
                 <li>Companies</li>
                 </p> 
+
+
                 <div className='footer'>
                 <div className="from"><span className='span1'>thought</span> <span className='span2'>by anujgosalia</span></div>
-                  <div className="time">Nov 18 . 1min Read . 228Views</div>
+                <div className="time">Nov 18 . 1min Read . 228Views</div>
                 </div>
               
-            </div>
+                </div>
               
-              </div>
-              <hr />
+                </div>
+                <hr />
           </div>
           </div>
 
