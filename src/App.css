@@ -65,7 +65,7 @@ nav{
   width: calc(100% + 10px); /* Adjust this value as needed */
   height: 40vh;
   margin-left: -5px; 
-  
+  margin-right: 0px;
 }
 body{
   width: 100%;
@@ -93,15 +93,25 @@ body{
   
 }
 
-
+.username::after {
+  content: "";
+  background: url('/public/icons8-verified-24.png') no-repeat;
+  background-size: 20px 20px;
+  margin: 0px 0px 0px 8px;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  position: absolute;
+}
 .name{
   
   margin-left: 19%;
   font-size: 1.1rem;
   font-weight: 600;
-  padding-bottom: 4px;
-  margin-top: 2px;
+  padding-bottom: 3px;
+  margin-top: 10px;
 }
+
 .follow{
   display: flex;
   flex-direction: row;
