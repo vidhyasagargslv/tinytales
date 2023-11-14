@@ -278,7 +278,7 @@ li{
   list-style-type: none;
   
 }
-li::marker{
+li::before{
   content: "-";
   margin-right: 10px;
 
