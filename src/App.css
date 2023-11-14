@@ -110,7 +110,7 @@ body{
   position: absolute;
 }
 .name{
-  
+  color: rgba(0, 0, 0, 0.658);
   margin-left: 19%;
   font-size: 1.1rem;
   font-weight: 600;
@@ -138,18 +138,18 @@ body{
 }
 .follow h1 {
 font-size: 0.8rem;
-color: #495057;
-border: 2px solid rgba(124, 123, 123, 0.845);
+color: rgba(0, 0, 0, 0.53);
+border: 2px solid rgba(124, 123, 123, 0.71);
 
 padding: 3px 8px 3px 8px;
 border-radius: 5px;
-font-weight:bold;
+font-weight: bolder;
 text-align: center;
 
 }
 .follow h2{
   font-size: 0.6rem;
-  color: #6c757d;
+  color: #6c757dba;
   opacity: 99%;
   margin-top: -5px;
 

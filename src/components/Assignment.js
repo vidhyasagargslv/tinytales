@@ -29,7 +29,7 @@ export default function Assignment() {
   }, []); 
 
   // *Render the component
-  
+
   return (
     <div>
        {/* Map over the profiles data and render each profile */}
@@ -118,6 +118,7 @@ export default function Assignment() {
               <div><img src="/thumbsup.png" alt="love" className='stats-icon1' /> </div>
               </div>
                 <p>The world is changing at a feverish pace. Friends,colleagues and everyone engaged in knowledgework are beginning to sense this, including .</p>
+                <br />
                 <div className='footer'>
                   <div className="from"><span className='span1'>musing</span> <span className='span2'>by anujgosalia</span></div>
                   <div className="time">August2 . 2mins Read . 102 Views</div>
@@ -133,6 +134,7 @@ export default function Assignment() {
               </div>
               <p>Think about it - this cricket series was akin to therapy. <br /> <br />
                  Laying our childhood trauma up top, working withit slowly and surely over two m...</p>
+              <br />
               <div className='footer'>
                <div className="from"><span className='span1'>thought</span> <span className='span2'>by anujgosalia</span></div>
                <div className="time">January 21 . 1 min Read . 156 Views</div>
@@ -154,7 +156,7 @@ export default function Assignment() {
                 <li>Companies</li>
                 </p> 
 
-
+                <br />
                 <div className='footer'>
                 <div className="from"><span className='span1'>thought</span> <span className='span2'>by anujgosalia</span></div>
                 <div className="time">Nov 18 . 1min Read . 228Views</div>
