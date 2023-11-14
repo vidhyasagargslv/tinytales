@@ -45,7 +45,7 @@ export default function Assignment() {
         <span className='navitem'>Courses</span>
         </div>
         </nav> <br />
-
+        <div className="content">
         {/* Background image */}
         <div className="bgimage">
           <img src="/pexels-tima-miroshnichenko-7168597.jpg" alt="coverpic" id='coverpic'/>
@@ -157,6 +157,7 @@ export default function Assignment() {
               
                 </div>
                 <hr />
+          </div>
           </div>
           </div>
 

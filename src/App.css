@@ -24,12 +24,16 @@ nav{
   
   display: flex;
   flex-direction: row;
-  
+  z-index: 1000;
   justify-content: space-between;
   -webkit-box-align: center;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0rem 1.5rem 3rem;
 }
+
+/* .content{
+  margin-top: 5rem;
+} */
 .sidename{
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
