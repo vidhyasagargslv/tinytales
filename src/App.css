@@ -211,7 +211,8 @@ text-align: center;
 .span2{
   color: rgb(0, 0, 0);
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  margin-left: 5px;
 }
 .footer{
   display: flex;
@@ -277,9 +278,10 @@ li{
   list-style-type: none;
   
 }
-li::before{
+li::marker{
   content: "-";
   margin-right: 10px;
+
 
 }
 /* .postcount{

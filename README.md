@@ -32,8 +32,8 @@ This project uses the following dependencies:
 
 Fonts used
 
--SFPRODISPLAY
--Lucida sans
+-SFPRODISPLAY (for posts at last)
+-Lucida sans (for the labels in the posts)
 -Arial (default)
 
 ## Contributing
