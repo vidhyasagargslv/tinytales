@@ -30,6 +30,12 @@ This project uses the following dependencies:
 - React
 - react-dom
 
+Fonts used
+
+-SFPRODISPLAY
+-Lucida sans
+-Arial (default)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

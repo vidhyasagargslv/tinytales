@@ -12,7 +12,8 @@ export default function Assignment() {
 
     const [profiles, setProfiles] = useState([]);
 
-  // Fetch profiles data when the component mounts
+  // TODO Fetch profiles data when the component mounts
+
   useEffect(() => {
     const fetchProfiles = async () => {
       try {
@@ -28,6 +29,7 @@ export default function Assignment() {
   }, []); 
 
   // *Render the component
+  
   return (
     <div>
        {/* Map over the profiles data and render each profile */}
@@ -104,7 +106,12 @@ export default function Assignment() {
 
           {/*  posts section */}
           <div className="posts">
-          <h2 className='postcount'>134 Posts</h2>
+          {/* <h2 className='postcount'>134 Posts</h2> */}
+          <div className="container">
+        
+        <div className="item1" >134 posts</div>
+        <div className="item2" ></div>
+          </div>
             <div className="post1">
               <div className="head">
               <div><h2>A Changing World Order</h2> </div>
