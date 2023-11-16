@@ -16,14 +16,13 @@ svg{
 }
 nav{
   width: 100%;
-  height: 6rem;
+  height: 5.8rem;
   padding-left: 1.8rem;
   padding-right: 2.7rem;
   background-color: rgb(17, 17, 17);
   position: fixed;
   left: 0px;
   top: 0px;
-  
   display: flex;
   flex-direction: row;
   z-index: 1000;
@@ -46,13 +45,14 @@ nav{
 }
 .divider{
   color: rgba(228, 225, 33, 0.333);
-  font-size: 30px;
-  margin: 10px;
+  font-size: 2rem;
+  margin: 10px 8px 27px 17px;
   position: relative;
-  top: 0px;
+  
+  
 }
 .rightnav{
-  margin-right: 10vw;
+  margin-right: 7vw;
 }
 .navitem{
   color: rgb(0, 0, 0);
@@ -93,8 +93,8 @@ body{
   justify-content: center;
   width: 200px;
   height: 150px;
-  margin-left: 35vw;
-  margin-top: -8.5vh;
+  margin-left: 30vw;
+  margin-top: -9vh;
   
   
 }
@@ -346,8 +346,9 @@ hr{
 
 @media screen and (min-width: 768px) {
   .profile {
-    margin-left: 8vw;
-    margin-right: 0vw; /* Adjust this value as needed */
+    margin-left: 14vw;
+    margin-right: 0vw;
+    margin-bottom: 3px; /* Adjust this value as needed */
   }
 
   .posts {
@@ -361,7 +362,7 @@ hr{
     margin-right: 70%;
   }
   .posts p{
-    margin-right: 70%;
+    margin-right: 50%;
   }
 
   .stats{
@@ -375,7 +376,9 @@ hr{
 @media screen and (min-width: 1024px) {
   .profile {
     margin-left: 8vw;
-    margin-right: 0vw; /* Adjust this value as needed */
+    margin-right: 0vw;
+    
+    padding-top: 8px;
   }
 
   .posts {
